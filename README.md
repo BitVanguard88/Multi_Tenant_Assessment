@@ -12,20 +12,24 @@ A proof-of-concept multi-tenant SaaS analytics platform built with React, Node.j
 
 ## Demo users
 
-- sarah@brightmarket.com / Password123!
+- allen@brightmarket.com / Password123!
 - mike@cloudsync.io / Password123!
 
 ## Run locally
 
 ### Backend
 
+```bash
 cd backend
 cp .env.example .env
 npm install
 npm run dev
+```
 
 ### Frontend
 
+```bash
 cd frontend
 npm install
 npm run dev
+```
